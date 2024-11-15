@@ -1,0 +1,41 @@
+/* 768 - 481 */
+@media(max-width: 481px) {
+  .container {
+      padding-inline: 20px;
+  }
+
+  .mainSection {
+      padding: 16px;
+      flex-direction: column; 
+  }
+
+  .formSection {
+      row-gap: 40px;
+
+  }
+
+  form {
+      --formRowGap: 36px;
+      display: flex; 
+  }
+
+  .formContainer {
+      flex-direction: column;
+      row-gap: var(--formRowGap);
+      margin-bottom: 10px; 
+  }
+
+  input {
+      width: 100%;
+  }
+
+  .mapSectionContainer {
+      row-gap: 40px;
+      padding-top: 10px; 
+  }
+
+  iframe {
+      height: 200px;
+
+  }
+}
