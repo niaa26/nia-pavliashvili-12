@@ -1,35 +1,35 @@
 /* 1439 - 769 */
-@media screen and (max-width: 1001px) {
-    .conteiner {
-      padding: 64px 24px;
-    }
+@media(max-width: 1001px) {
+  .container {
+      padding-inline: 24px;
+      margin: auto; 
   }
-  
-    /* 800 */
-  
-  @media screen and (max-width: 801px) {
-    .container {
+
+  .mainSection {
+      display: block; 
+      padding: 0 20px; 
+  }
+}
+
+@media(max-width: 801px) {
+  .container {
       padding: 32px 24px;
-    }
-  
-    .background_section {
-      padding: 40px 16px;
+      border: 1px solid transparent; 
+  }
+
+  .mainSection {
+      padding-inline: 16px;
       flex-direction: column;
       row-gap: 64px;
-    }
-  
-  
-  
-    form {
-      width: 100%;
-     
-    }
-    .map_and_contact {
-      width: 100%;
-   
-    }
-   
-    iframe {
-        height: 338px;
-      }
+      align-items: stretch;
   }
+
+  .formSection,
+  .mapSection {
+      width: 100%;
+  }
+
+  .formTitle {
+      font-size: 30px; 
+  }
+}
